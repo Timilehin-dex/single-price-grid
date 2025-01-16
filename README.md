@@ -14,8 +14,8 @@ This is a solution to the [QR code component challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Timilehin-dex/order-summary-card)
-- Live Site URL: [Add live site URL here](https://timilehin-dex.github.io/order-summary-card//)
+- Solution URL: [Add solution URL here](https://github.com/Timilehin-dex/single-price-grid)
+- Live Site URL: [Add live site URL here](https://timilehin-dex.github.io/single-price-grid/)
 
 ## My process
 
