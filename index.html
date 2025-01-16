@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="output.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Single Price Grid Component</title>
+    <style>
+      .attribution {
+        font-size: 11px;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+    </style>
+  </head>
+  <body class="bg-neutral-lightGray font-karla">
+    <div class="md:h-screen md:grid md:place-content-center">
+      <div
+        class="max-w-2xl grid md:grid-cols-2 rounded-md overflow-hidden shadow-boxShadow m-10 md:m-0"
+      >
+        <div class="md:col-span-2 bg-white p-6 md:p-10 grid gap-3">
+          <h1 class="text-primary-cyan md:text-xl text-lg font-semibold">
+            Join our community
+          </h1>
+          <span class="text-primary-brightYellow md:text-lg text-sm"
+            >30-day, hassle-free money back guarantee
+          </span>
+          <p class="text-neutral-grayishBlue text-s md:text-base">
+            Gain access to our full library of tutorials along with expert code
+            reviews. Perfect for any developers who are serious about honing
+            their skills.
+          </p>
+        </div>
+        <div class="bg-primary-cyan p-6 md:p-10 grid gap-1">
+          <h4 class="text-white text-lg">Monthly Subscription</h4>
+          <div class="flex items-center gap-3 mt-2">
+            <span class="text-white text-3xl font-semibold">&dollar;29 </span>
+            <span class="text-neutral-lightGray text-opacity-70"
+              >per month</span
+            >
+          </div>
+          <p class="text-white text-opacity-85">
+            Full access for less than &dollar;1 a day
+          </p>
+          <button
+            class="bg-primary-brightYellow text-white w-full p-2.5 rounded-lg mt-5 md:mt-3 shadow-boxShadow"
+          >
+            Sign Up
+          </button>
+        </div>
+        <div class="bg-primary-cyan bg-opacity-65 p-6 md:p-10">
+          <h6 class="pb-4 text-white text-lg">Why Us</h6>
+          <ul class="text-sm text-neutral-lightGray">
+            <li>Tutorials by industry experts</li>
+            <li>Peer &amp; expert code review</li>
+            <li>Coding exercises</li>
+            <li>Access to our GitHub repos</li>
+            <li>Community forum</li>
+            <li>Flashcard decks</li>
+            <li>New videos every week</li>
+          </ul>
+        </div>
+      </div>
+      <footer>
+        <p class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Olusoyemi Oluwatimilehin</a>.
+        </p>
+      </footer>
+    </div>
+  </body>
+</html>
